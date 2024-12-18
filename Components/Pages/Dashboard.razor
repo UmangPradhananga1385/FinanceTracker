@@ -1,0 +1,57 @@
+﻿@page "/dashboard"
+<div class="dashboard-container">
+    <!-- Sidebar Navigation -->
+    <nav class="sidebar">
+        <div class="sidebar-header">
+            <h2>Dashboard</h2>
+        </div>
+        <ul class="sidebar-menu">
+            <li><a href="/dashboard" class="active">Home</a></li>
+            <li><a href="/analytics">Analytics</a></li>
+            <li><a href="/profile">Profile</a></li>
+            <li><a href="/settings">Settings</a></li>
+            <li><a href="/logout">Logout</a></li>
+        </ul>
+    </nav>
+
+    <!-- Main Content Area -->
+    <div class="main-content">
+        <!-- Header -->
+        <header class="header">
+            <h1>Welcome to the Dashboard</h1>
+            <div class="header-actions">
+                <button class="btn">Notifications</button>
+                <button class="btn">Settings</button>
+            </div>
+        </header>
+
+        <!-- Widgets/Content Sections -->
+        <section class="dashboard-widgets">
+            <div class="widget">
+                <h3>Total Users</h3>
+                <p>1,234</p>
+            </div>
+            <div class="widget">
+                <h3>New Orders</h3>
+                <p>567</p>
+            </div>
+            <div class="widget">
+                <h3>Revenue</h3>
+                <p>$12,345</p>
+            </div>
+            <div class="widget">
+                <h3>Feedback</h3>
+                <p>89</p>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <p>© 2024 Your Company Name. All rights reserved.</p>
+        </footer>
+    </div>
+</div>
+
+@code {
+
+}
